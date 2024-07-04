@@ -1,7 +1,5 @@
 const slider = document.querySelector("#slider");
 const menu = document.querySelector("#menu");
-const moon = document.querySelector("#moon")
-const html = document.querySelector("html")
 const hlinks = document.querySelectorAll("#hlink");
 
 slider.addEventListener("click", () => {
@@ -16,6 +14,3 @@ hlinks.forEach(link => {
   });
 });
 
-moon.addEventListener("click", ()=>{
-  html.classList.toggle("dark")
-})
